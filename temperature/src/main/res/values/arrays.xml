@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="names">
+        <item>City</item>
+        <item>Sunset</item>
+        <item>Sunrise</item>
+    </string-array>
+
+    <array name="pictures">
+        <item>@drawable/city</item>
+        <item>@drawable/sunset</item>
+        <item>@drawable/sunrise</item>
+    </array>
+
+</resources>

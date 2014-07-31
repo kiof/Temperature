@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_category_picture" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="keepmypicture"
+            android:summary="@string/keepmypicture_summary"
+            android:title="@string/keepmypicture_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="keepmypicture"
+            android:key="random"
+            android:summary="@string/random_summary"
+            android:title="@string/random_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
