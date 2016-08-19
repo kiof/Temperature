@@ -17,6 +17,7 @@ android {
     productFlavors {
     }
 }
+
 dependencies {
     compile 'com.google.android.gms:play-services-ads:9.4.0'
 }
